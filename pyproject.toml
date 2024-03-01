@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "taxi-cab-etl"
+version = "0.1.0"
+description = "ETL pipleine for taxi cab data"
+authors = ["Abrar <amahi2001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+polars = "^0.20.13"
+requests = "^2.31.0"
+ruff = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
